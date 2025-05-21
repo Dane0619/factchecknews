@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>팩트체크뉴스 - 바나나, 숙취에 치명적이었다?</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background-color: #c8102e;
+      color: white;
+      padding: 20px;
+      text-align: left;
+      display: flex;
+      align-items: center;
+    }
+    header img {
+      height: 40px;
+      margin-right: 15px;
+    }
+    nav {
+      background-color: #333;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 0.95em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .banner {
+      background-image: url('https://via.placeholder.com/1000x150/111111/eeeeee?text=%5B%EA%B4%91%EA%B3%A0%5D+%EB%B0%94%EB%82%98%EB%82%98+%EB%94%94%ED%86%A1%EC%8A%A4+%ED%8C%A9+%EB%9F%B0%EC%B9%AD%21');
+      background-size: cover;
+      height: 150px;
+    }
+    .content-wrapper {
+      display: flex;
+      justify-content: center;
+      margin: 30px auto;
+      max-width: 1200px;
+    }
+    .container {
+      flex: 3;
+      padding: 30px;
+      background: white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-right: 20px;
+    }
+    .sidebar {
+      flex: 1;
+      background: #ffffff;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      font-size: 0.9em;
+      position: relative;
+    }
+    .sidebar h3 {
+      margin-top: 0;
+      font-size: 1.1em;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .sidebar .item {
+      margin: 15px 0;
+      padding-bottom: 10px;
+      border-bottom: 1px dashed #ccc;
+    }
+    .video-thumbnail {
+      margin-top: 30px;
+    }
+    .video-thumbnail img {
+      width: 100%;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+    .video-thumbnail p {
+      font-size: 0.85em;
+      color: #444;
+      margin: 0;
+    }
+    .scroll-ad {
+      position: sticky;
+      top: 20px;
+      margin-top: 40px;
+      padding: 10px;
+      background-color: #e3f2fd;
+      border: 1px solid #90caf9;
+      border-radius: 4px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .meta {
+      color: gray;
+      font-size: 0.9em;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .main-img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 4px;
+    }
+    .fake-ad {
+      margin: 40px 0;
+      padding: 20px;
+      background-color: #fff3cd;
+      text-align: center;
+      border: 1px dashed #ffc107;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8em;
+      color: #888;
+      margin-top: 60px;
+      padding: 20px;
+      background-color: #eeeeee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://via.placeholder.com/120x40?text=FACTCHECK" alt="팩트체크뉴스 로고">
+    <div>
+      <h1 style="margin:0; font-size: 1.5em;">팩트체크뉴스</h1>
+      <p style="margin:0; font-size: 0.9em;">팩트는 우리가 만든다</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#">정치</a>
+    <a href="#">사회</a>
+    <a href="#">경제</a>
+    <a href="#">국제</a>
+    <a href="#">헬스</a>
+    <a href="#">오피니언</a>
+  </nav>
+
+  <div class="banner"></div>
+
+  <div class="content-wrapper">
+    <div class="container">
+      <h1>“바나나가 숙취에 좋다고?” 최신 연구는 정반대!</h1>
+      <div class="meta">2025년 5월 22일 | 기자: 정혼란</div>
+      <img class="main-img" src="https://via.placeholder.com/800x400/cccccc/000000?text=%EB%B0%94%EB%82%98%EB%82%98+%EB%B6%88%ED%95%84%EB%A6%AC+%EC%A0%84%EB%AC%B8%EA%B0%80+%EC%9D%B8%ED%84%B0%EB%B7%B0" alt="바나나 뉴스 이미지">
+
+      <p>전 세계적으로 숙취에 좋은 과일로 알려진 <strong>바나나</strong>가 실제로는 간 기능을 마비시켜 숙취를 <em>악화시킬 수 있다</em>는 충격적인 연구 결과가 나왔다.</p>
+
+      <p>허구대학교 식품과학연구소의 김도루 교수는 “바나나에 포함된 알파-디카르보산 성분이 알코올 분해 효소와 충돌해 간 해독작용을 방해할 수 있다”고 주장했다. 실험은 뉴트리아 12마리에게 바나나 향이 나는 물을 먹인 뒤, 회전의자에 태우는 방식으로 진행되었다.</p>
+
+      <p>김 교수는 “실험실이라는 환경 특성상 실제 사람에게 적용하기엔 약간의 차이가 있을 수 있다”며, “하지만 연구는 엄정하게, 재미있게 진행되었다”고 설명했다.</p>
+
+      <div class="fake-ad">
+        📢 [광고] 숙취엔 이젠 바나나 말고 <u>오이즙</u>! <br>허구백화점 단독 출시 🌿 지금 검색: <strong>"오이파워 숙취킬러"</strong>
+      </div>
+
+      <p>이에 대해 세계바나나협회는 “이는 음모이자, 오이를 홍보하려는 사과업계의 계획”이라며 공식 항의서를 제출했다. 오이농장협회는 “그런 계획은 없었다”고 밝혔지만, 사과업계는 침묵을 유지하고 있다.</p>
+
+      <p>한편, 이 연구는 ‘한국바나나감시단’에서 <em>“허무하지만 흥미로운 시도”</em>라는 평가를 받았으며, 팩트체크뉴스는 후속 보도를 준비 중이다.</p>
+    </div>
+
+    <aside class="sidebar">
+      <h3>🔥 실시간 이슈</h3>
+      <div class="item">"회식 뒤 바나나 먹은 직장인, 4명 중 3명 눈동자 흔들려" [헬스일간]</div>
+      <div class="item">"과일이 범인? 과일 알레르기와 숙취의 관계" [과학궁금증]</div>
+      <div class="item">“오이즙 챌린지” 100만 뷰 돌파, 유튜버 상추남 인기 급상승</div>
+      <div class="item">광고 | RPG게임 '수박전사' CBT 모집 중! 호랑이랑 싸우세요 🐯</div>
+
+      <div class="video-thumbnail">
+        <img src="https://via.placeholder.com/300x180?text=%EC%9D%B4%EC%8A%88+%EB%B9%84%EB%94%94%EC%98%A4" alt="이슈 영상">
+        <p>🎥 [영상] 숙취와의 전쟁, 오이즙의 반란</p>
+      </div>
+
+      <div class="scroll-ad">
+        📌 지금 신청하세요! <br>
+        🍹 오이즙 무료 체험 이벤트<br>
+        ➤ 클릭 시 배송됨
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    © 2025 FactCheck News. All rights reserved. | 제보: fake@factcheck-news.net<br>
+    본 콘텐츠는 일부 사실과 다를 수 있으며, 유머와 상상력에 기반한 기사입니다.
+  </footer>
+</body>
+</html>
